@@ -1,0 +1,129 @@
+*{
+    
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Clear Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#topbar2{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+}
+
+.city-search{
+      width: 60%;
+      margin-left: 60px;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 5px;
+}
+
+.city{
+      width: 28.7%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      background-color: #F1F4F6;
+      
+}
+
+.city>input{
+      padding: 5px;
+      font-weight: bold;
+      border: none;
+      background-color: #F1F4F6;
+}
+
+.city>i{
+      font-size: 14.5px;
+      color: #666666;
+      background-color: #F1F4F6;
+      cursor: pointer;
+}
+
+.search{
+      width: 71%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      background-color: #F1F4F6;
+      padding: 5px 0px;
+}
+
+.search >input{
+      padding: 5px;
+      font-weight: bold;
+      border: none;
+      background-color: #F1F4F6;
+}
+
+.search>i{
+      font-size: 14px;
+      background-color: #F1F4F6;
+      cursor: pointer;
+      color: #656565;
+}
+
+.para{
+      display: flex;
+      align-items: center;
+      width: 20%;
+      background-color: #F1F4F6;    
+}
+
+.para>p{
+      word-spacing: 3px;
+      font-size: 12px;
+}
+
+.button1{
+     width: 10%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.button1>button{
+      padding: 10px 25px;
+      font-size: 16px;
+      background-color: #FF6F61;
+      border: none;
+      border-radius: 5px;
+      color: white;
+}
+
+.drop-dwon{
+      width: 100%;
+      border: 1px solid rgba(0, 0, 0, 0.322);
+      height: 70px;
+      display: grid;
+      place-items: center;
+      padding: 0 17px;
+      margin-top: 4px;
+}
+
+.drop-dwon>ul{
+      width: 92%;
+      display: flex;
+      justify-content: space-between;
+      font-size: 13px;
+}
+
+.drop-dwon>ul>li{
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+}
+
+.drop-dwon>ul>li>a{
+      color: black;
+}
+
+.fa-caret-down{
+      margin: 0 5px;
+      font-size: 11px;
+}
+
