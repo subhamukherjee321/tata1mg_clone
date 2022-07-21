@@ -97,7 +97,7 @@
 
 .drop-dwon{
       width: 100%;
-      border: 1px solid rgba(0, 0, 0, 0.322);
+      border: 1px solid rgba(0, 0, 0, 0.198);
       height: 70px;
       display: grid;
       place-items: center;
@@ -116,6 +116,10 @@
       list-style-type: none;
       display: flex;
       align-items: center;
+}
+
+.drop-dwon>ul>li>:hover{
+      color: #FF6F61;
 }
 
 .drop-dwon>ul>li>a{

@@ -12,6 +12,10 @@ section{
       width: 35%;
 }
 
+.banner2>img{
+      width: 100%;
+}
+
 .heading{
       height: 80px;
       border: 1px solid rgba(0, 0, 0, 0.198);
@@ -38,7 +42,7 @@ section{
 }
 
 .banner3{
-    width: 95%;
+    width: 92%;
     margin: auto;
     margin-top: 35px;
 }
@@ -48,11 +52,13 @@ section{
 }
 
 .features-brand{
-      width: 95%;
+      width: 92%;
       display: flex;
       justify-content: space-between;
+      align-items: flex-end;
       margin: auto;
       margin-top: 28px;
+      padding-bottom: 12px;
 }
 
 .features-brand>button{
@@ -63,5 +69,4 @@ section{
       color: white;
       font-weight: bold;
       border-radius: 5px;
-      margin-bottom: 12px;
 }
