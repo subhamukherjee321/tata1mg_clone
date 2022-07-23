@@ -431,28 +431,532 @@ s{
 }
 
 
-
-
-
-/* Login Singup Page */
-.login_signup_page{
-      position: fixed;
-      width: 950px;
-      height: 550px;
-      background-color: white;
-      border: 1px solid;
-      top: 30px;
-      left: 13%;
-      display: none;
-      border-radius: 10px;
+/* Blank */
+.blank{
+      height: 37px;
+      width: 100%;
+      background-color: #F5F5F5;
 }
 
-.active >.login_signup_page{
+
+/* Description Section */
+.description{
+      width: 100%;
+      padding: 35px;
+      background-color: #FFFCF8;
+}
+
+.description>p{
+      padding: 0;
+      color: #666666;
+      line-height: 23px;
+}
+
+.description *{
+      margin-bottom: 20px;
+}
+
+.description :last-child{
+      margin: 0;
+}
+
+.description :nth-child(17){
+      margin-bottom: 5px;
+}
+
+/* Footer Section */
+.visitors{
+      width: 100%;
+      border: 1px solid rgba(0, 0, 0, 0.198);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 30px;
+      background-color: #FFFCF8;
+}
+
+.visitors p{
+      padding: 0;
+      text-align: center;
+}
+
+.visitors>h2{
+      text-align: center;
+      font-family: "Clear Sans",sans-serif;
+      margin-bottom: 5px;
+}
+
+.visitors>div{
+      width: 65%;
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-between;
+}
+
+.phone{
+      width: 62%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+}
+
+.phone input{
+      padding: 15px 162px 15px 15px ;
+      border: none;
+      background-color: #F1F4F6;
+      outline: none+;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button{
+      -webkit-appearance: none;
+      margin: 0;
+}
+
+.phone button{
+      padding: 15px 40px;
+      border-radius: 5px;
+      border: none;
+      background-color: #ff6f61 ;
+      color: white;
+      cursor: pointer;
+}
+
+
+/* Footer List Section */
+main{
+      width: 100%;
+      border: 1px solid rgba(0, 0, 0, 0.198);
+      display: flex;
+      width: 100%;
+      margin: auto;
+      padding: 70px;
+      background-color: #FFFCF8;
+}
+
+main :last-child>div{
+      padding: 5px;
+      cursor: pointer;
+}
+
+main>div{
+      width: 24%;
+      display: flex;
+      flex-direction: column;
+}
+
+main>div>h5{
+      margin-bottom: 20px;
+}
+
+main>div>ul>li{
+      font-size: 12px;
+      padding: 5px 0;
+      list-style-type: none;
+      cursor: pointer;
+      color: #666666;
+}
+
+main>div>ul>li>img{
+      width: 27px;
+      height: 26px;
+      cursor: pointer;
+}
+
+main>div>ul>li>button{
+      width: 97px;
+      height: 40px;
+      border-radius: 4px;
+      background-color: #ff6f61;
+      font-weight: 700;
+      border: none;
+      vertical-align: middle;
+      color: #fff;
+      cursor: pointer;
+}
+
+
+/* Details Section */
+.details{
+      width: 80%;
+      margin: auto;
+      padding: 30px;
+      display: flex;
+      justify-content: space-between;
+}
+
+.details>div{
+      width: 31%;
+      display: flex;
+      justify-content: space-between;
+}
+
+.details>div>div{
+      width: 40%;
+}
+
+.details>div>div+div{
+      width: 60%;
+}
+
+.details p{
+      font-size: 12px;
+      color: #767676;
+      line-height: 18px;
+}
+
+p{
+      padding: 0;
+}
+
+
+/* Certified Section */
+.certified{
+      width: 100%;
+      padding: 20px;
+      border: 1px solid rgba(0, 0, 0, 0.198);
+      text-align: center;
+}
+
+.certified *{
+      padding: 10px;
+}
+
+.certified img{
+            width: 10%;
+}
+
+
+/* Copy-Right Section */
+.copy-right{
+      border: 1px solid rgba(0, 0, 0, 0.198);
+}
+
+.copy-right>p{
+      width: 85%;
+      margin: auto;
+      font-size: 14px;
+      color: #767676;
+      line-height: 18px;
+      padding: 20px;
+      text-align: center;
+}
+
+
+/* Login Page */
+.login_page{
+      position: absolute;
+      width: 850px;
+      height: 500px;
+      background-color: white;
+      top: 40px;
+      left: 19%;
+      display: none;
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.active >.login_page{
       display: block;
 }
 
-.login_signup_page>div{
-      width: 50%;
-      height: 950px;
-      border: 1px solid red;
+.login{
+      width: 850px;
+      height: 500px;
+      background-color: white;
+      border-radius: 10px;
+      display: flex;
+      justify-content: space-around;
+      padding-right: 20px;
+}
+
+.login>:first-child{
+      width: 40%;
+      height: 550px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+.login>:first-child>div{
+      padding: 20px;
+}
+
+.login>:first-child>div>h3{
+      text-align: center;
+}
+
+.login p{
+      font-size: 13px;
+      color: #666666;
+}
+
+.login>:first-child>div>p{
+      padding-top: 30px;
+      text-align: center      ;
+}
+
+.login>:last-child{
+    width: 40%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.login :last-child :first-child *{
+      text-align: left;
+      padding: 8px;
+}
+
+.login input{
+      font-size: 16px;
+      padding: 5px 0;
+      font-weight: bold;
+      outline: none;
+      border: none;
+      border-bottom: 2px solid #FF6F61;
+}
+
+.login button{
+      background-color: rgb(255, 111, 97);
+      border: 1px solid #FF6F61;
+      color: white;
+      padding: 11px 130px;
+      font-weight: 700;
+      font-size: 16px;
+      border-radius: 5px;
+      margin-bottom: 18px;
+}
+
+.login h5{
+      padding: 3px;
+      color: #666666;
+}
+
+.login span{
+      color: #FF6F61;
+      font-weight: 900;
+      cursor: pointer;
+}
+
+.login :last-child :last-child>p{
+      padding: 2px;
+      font-size: 12px;
+}
+
+.login u{
+      cursor: pointer;
+}
+
+.login :last-child :last-child>h5+h5{
+      margin-bottom: 9px;
+}
+
+.login :last-child :last-child :last-child{
+      color: #FF6F61;
+      cursor: pointer;
+}
+
+.cross1{
+      text-align: right;
+      cursor: pointer;
+}
+
+.cross1>i{
+      padding: 10px 15px 0px 0px;
+}
+
+
+/* Cart Hover */
+.cart{
+      position: relative;
+      cursor: pointer;
+}
+
+.cart1{
+      width: 250px;
+      height: 88px;
+      position: absolute;
+      bottom: -94px;
+      left: -202px;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      display: none;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      border-radius: 8px;
+}
+
+.cart-1{
+      width: 250px;
+      height: 88px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px;
+}
+
+.cart-1>div{
+      width: 100%;
+}
+
+.cart-1>:first-child{
+      display: flex;
+      justify-content: space-between;
+}
+
+.cart-1>:first-child>h5{
+      width: 60%;
+}
+
+.cart-1>:first-child>h5+h5{
+      text-align: right;
+      width: 30%;
+}
+
+.cart-1>:last-child>h5{
+      text-align: center;
+      color: #FF6F61;
+}
+
+.hover{
+      display: block;
+}
+
+/* Sign Up Page */
+.signup_page{
+      background-color: white;
+      width: 65%;
+      height: 90vh;
+      position: fixed;
+      top: 32px;
+      left: 17%;
+      display: none;
+      border-radius: 15px;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.active2>.signup_page{
+      display: block;
+}
+
+.signup_popup{
+      width: 100%;
+      height: 90vh;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+}
+
+.signup_popup>div{
+      height: 70vh;
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      padding-bottom: 20px;
+}
+
+.signup_popup>.child1{
+      height: 45vh;
+}
+
+.child1>div{
+      text-align: center      ;
+}
+
+.child2 *{
+      text-align: left;
+}
+
+.signup_popup>div>:last-child>p{
+      margin-top: 20px;
+      font-size: 13px;
+      line-height: 20px;
+      color: #666666;
+}
+
+.signup_popup>div+div>div>p{
+      text-align: left;
+      font-size: 12px;
+      color: #666666;
+      margin-top: 15px;
+}
+
+.inp-num>input{
+      width: 100%;
+      padding: 10px 0;
+      font-size: 16px;
+      outline: none;
+      border: none;
+      border-bottom: 3px solid #FF6F61;
+      text-align: left;
+      font-weight: bold;
+}
+
+.child2 >:nth-child(3)>span{
+      font-size: 12px;
+      color: #666666;
+      word-spacing: 3px;
+}
+
+.child2 >:nth-child(3)>input{
+      width: 16px;
+      height: 16px;
+}
+
+.child2> :last-child>button{
+      background-color: rgb(255, 111, 97);
+      color: rgb(255, 255, 255);
+      height: 40px;
+      padding: 0px 16px;
+      display: flex;
+      font-weight: 700;
+      font-size: 16px;
+      border-radius: 4px;
+      cursor: pointer;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid rgb(255, 111, 97);
+      width: 100%;
+      margin-bottom: 15px;
+}
+
+.child2> :last-child *{
+      text-align: center;
+}
+
+.child2> :last-child>h5{
+      padding: 5px;
+}
+
+.child2> :last-child>h5>span{
+      color: #FF6F61;
+      cursor: pointer;
+}
+
+.child2> :last-child>h5+p{
+      margin: 0;
+      margin-top: 7px;
+}
+
+.child2> :last-child>p+p{
+      margin: 0;
+      padding: 3px;
+}
+
+.close{
+      text-align: right;
+      padding: 5px;
+      padding-right: 10px;
 }
